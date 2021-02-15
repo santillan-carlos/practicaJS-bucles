@@ -19,6 +19,8 @@ if(nota <= 2){
     document.write("Bien");
 }else if (nota >= 8 && nota <= 9){
     document.write("Notable");
-}else if (nota = 10){
+}else if (nota == 10){
     document.write("Sobresaliente");
+}else if (nota > 10){
+    document.write("Numero erroneo");
 }
